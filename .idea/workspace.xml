@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d80eab3-1c36-466c-9115-3be4b3ee6298" name="Default Changelist" comment="" />
+    <list default="true" id="2d80eab3-1c36-466c-9115-3be4b3ee6298" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordovaApp3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cordovaApp3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/plugins/vant.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/plugins/vant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/index.js" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mxhsSo843WWgmtwdh9Msq0H9Nl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -55,11 +72,25 @@
       <updated>1610441355961</updated>
       <workItem from="1610441361742" duration="167000" />
       <workItem from="1610441591158" duration="397000" />
-      <workItem from="1610499851928" duration="2208000" />
+      <workItem from="1610499851928" duration="4189000" />
+      <workItem from="1610508197008" duration="1709000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
