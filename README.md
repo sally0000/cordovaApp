@@ -1,0 +1,2 @@
+# cordovaApp
+使用cordova与vant创建的安卓版本的app
