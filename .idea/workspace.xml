@@ -2,24 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d80eab3-1c36-466c-9115-3be4b3ee6298" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cordovaApp3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cordovaApp3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school-app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/components/HelloWorld.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/school-app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/plugins/vant.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/plugins/vant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/plugins/vant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/views/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app2/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/school-app2/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app2/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app2/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app3/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app3/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app3/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app3/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app3/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app3/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app3/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app3/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/src/views/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app3/src/views/Home.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/css/app.f9524268.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/css/chunk-vendors.09b8b193.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/img/logo.82b9c7a5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/about.80b2df37.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/about.80b2df37.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/app.2697b3bb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/app.2697b3bb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/chunk-vendors.ba7fc359.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/static/js/chunk-vendors.ba7fc359.js.map" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cordovaApp3" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,8 +67,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.phonegap.settings.workdir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platforms/android/res/xml/network-security-config.xml.tld" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/platforms/android/res/xml/network-security-config.xml.tld" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,7 +112,21 @@
       <workItem from="1610441361742" duration="167000" />
       <workItem from="1610441591158" duration="397000" />
       <workItem from="1610499851928" duration="4189000" />
-      <workItem from="1610508197008" duration="1709000" />
+      <workItem from="1610508197008" duration="5626000" />
+      <workItem from="1610585894773" duration="709000" />
+      <workItem from="1610672544824" duration="5860000" />
+      <workItem from="1610932475667" duration="2799000" />
+      <workItem from="1610936131534" duration="14093000" />
+      <workItem from="1611018634471" duration="3675000" />
+      <workItem from="1611028164691" duration="8941000" />
+      <workItem from="1611104748413" duration="3246000" />
+      <workItem from="1611190952519" duration="1896000" />
+      <workItem from="1611537132321" duration="595000" />
+      <workItem from="1611623573107" duration="4216000" />
+      <workItem from="1611709243418" duration="9072000" />
+      <workItem from="1611795336065" duration="8893000" />
+      <workItem from="1611881880812" duration="681000" />
+      <workItem from="1612141921457" duration="2147000" />
     </task>
     <servers />
   </component>

@@ -1,46 +1,93 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png" />
-    <div>
-      <p>
-        If iView is successfully added to this project, you'll see an
-        <code v-text="'<Button>'"></code>
-        below
-      </p>
-      <van-button type="primary">Button</van-button>
-      <van-tabbar v-model="active">
-        <van-tabbar-item icon="home-o">标签</van-tabbar-item>
-        <van-tabbar-item icon="search">标签</van-tabbar-item>
-        <van-tabbar-item icon="friends-o">标签</van-tabbar-item>
-        <van-tabbar-item icon="setting-o">标签</van-tabbar-item>
-      </van-tabbar>
-    </div>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <router-view class="router-view" v-slot="{ Component }">
+      <transition :name="transitionName">
+        <component :is="Component" />
+      </transition>
+    </router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
-export default {
-  name: "app",
-  components: {
-    HelloWorld
-  },
-  data() {
-    return {
-      active: 0
-    };
+import { reactive, toRefs } from 'vue'
+import { useRouter } from 'vue-router'
+  export default {
+    setup() {
+      const router = useRouter()
+      const state = reactive({
+        transitionName: 'slide-left'
+      })
+      router.beforeEach((to, from) => {
+        if (to.meta.index > from.meta.index) {
+          state.transitionName = 'slide-left' // 向左滑动
+        } else if (to.meta.index < from.meta.index) {
+          // 由次级到主级
+          state.transitionName = 'slide-right'
+        } else {
+          state.transitionName = ''   // 同级无过渡效果
+        }
+      })
+
+      return {
+        ...toRefs(state)
+      }
+    }
   }
-};
 </script>
 
-<style>
+<style lang="less">
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  height: 100%;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  // text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.router-view{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slide-right-enter-active,
+.slide-right-leave-active,
+.slide-left-enter-active,
+.slide-left-leave-active{
+    height: 100%;
+    will-change: transform;
+    transition: all 500ms;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.slide-right-enter{
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+}
+.slide-right-leave-active{
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+}
+.slide-left-enter{
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+}
+.slide-left-leave-active{
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+}
+
+.van-badge--fixed {
+  z-index: 1000;
 }
 </style>
