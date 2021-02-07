@@ -3,15 +3,15 @@
     <ul class="nav-list">
       <router-link tag="li" class="nav-list-item active" to="realTime">
         <i class="iconfont icon-shishi"></i>
-        <span>实时</span>
-      </router-link>
-      <router-link tag="li" class="nav-list-item" to="monitor">
-        <i class="iconfont icon-shipin"></i>
-        <span>监控</span>
+        <span>首页</span>
       </router-link>
       <router-link tag="li" class="nav-list-item" to="warning"> 
         <van-icon class="iconfont icon-jingbao" name="shopping-cart-o"  />
         <span>警报</span>
+      </router-link>
+      <router-link tag="li" class="nav-list-item" to="monitor">
+        <i class="iconfont icon-shipin"></i>
+        <span>监控</span>
       </router-link>
       <router-link tag="li" class="nav-list-item" to="user">
         <i class="iconfont icon-wode"></i>
@@ -23,9 +23,7 @@
 
 <script>  
 export default {
-  setup() {
-    
-  }
+   
 }
 </script>
 

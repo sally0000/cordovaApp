@@ -1,4 +1,3 @@
-const path = require('path')
 module.exports = {
   // 基本路径   整个文件夹在哪
   publicPath: './',
@@ -16,19 +15,18 @@ module.exports = {
   productionSourceMap: false, // 是否在构建生产包时生成 sourceMap 文件，false将提高构建速度 
   devServer: {
     open: true,
-    host: '0.0.0.0',
+    host: 'localhost',
     port: 8080,
     https: false,
     hotOnly: false,
-    proxy : null
-	//proxy: {
-	//	'/api': {
-	//		target: 'http://localhost:3000/api',
-	//		changeOrigin: true,
-	//		pathRewrite: {
-	//			'^/api': ''
-	//		}
-	//	}
-	//}
+    proxy: {
+      '/api': {
+        target: 'http://192.168.2.122:9102',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api': ''
+        }
+      }
+    }
   }
-}
+};

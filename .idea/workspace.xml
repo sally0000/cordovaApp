@@ -2,25 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d80eab3-1c36-466c-9115-3be4b3ee6298" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/common/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/common/style/base.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/common/style/mixin.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/components/NavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/components/SimpleHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/EVN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/EvnIndex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/HuangPu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/PM2.5 Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/Record.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/SEC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/SourceHanSansCN-Normal.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/caution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/envPng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/esc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/international.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/loginImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/loginPng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/sao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/setPwd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/site.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/img/userManual.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/plugins/vant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/service/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/utils/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/views/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/views/Monitor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/views/RealTime.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/views/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/src/views/Warning.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-app3/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/plugins/vant.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/views/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app2" beforeDir="false" afterPath="$PROJECT_DIR$/school-app2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school-app2/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/school-app2/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school-app2/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app2/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app3" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school-app3/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school-app3/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school-app3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/package.json" afterDir="false" />
@@ -31,16 +52,6 @@
       <change beforePath="$PROJECT_DIR$/school-app3/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school-app3/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/src/views/About.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school-app3/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/css/app.f9524268.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/css/chunk-vendors.09b8b193.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/img/logo.82b9c7a5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/about.80b2df37.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/about.80b2df37.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/app.2697b3bb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/app.2697b3bb.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/chunk-vendors.ba7fc359.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/static/js/chunk-vendors.ba7fc359.js.map" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +78,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.phonegap.settings.workdir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/platforms/android/res/xml/network-security-config.xml.tld" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/platforms/android/res/xml/network-security-config.xml.tld" />
@@ -127,6 +138,10 @@
       <workItem from="1611795336065" duration="8893000" />
       <workItem from="1611881880812" duration="681000" />
       <workItem from="1612141921457" duration="2147000" />
+      <workItem from="1612227991735" duration="1241000" />
+      <workItem from="1612321666809" duration="1195000" />
+      <workItem from="1612400828392" duration="1781000" />
+      <workItem from="1612659812210" duration="598000" />
     </task>
     <servers />
   </component>

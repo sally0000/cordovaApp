@@ -2,7 +2,7 @@
   <div class="about">
     <s-header :name="'关于我们'"></s-header>
     <div class="about-body">
-      <img class="intro-img" src="//s.yezgea02.com/1604046067055/WechatIMG30231.jpeg" alt="">
+      <img class="intro-img" src="" alt="">
     </div>
   </div>
 </template>

@@ -25,6 +25,7 @@ export default {
 <style lang="less" scoped>
   @import '../common/style/mixin';
   .warning-box {
+    background: #FAFAFA;
     .warning-header {
       position: fixed;
       top: 0;
@@ -36,8 +37,7 @@ export default {
       padding: 0 10px;
       .boxSizing();
       color: #252525;
-      background: #fff;
-      border-bottom: 1px solid #dcdcdc;
+      border-bottom: 1px solid #fff;
       .warning-name {
         font-size: 14px;
       }

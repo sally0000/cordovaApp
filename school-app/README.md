@@ -1,4 +1,4 @@
-# school-app
+# school-app3
 
 ## Project setup
 ```

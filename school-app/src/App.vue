@@ -1,46 +1,35 @@
 <template>
   <div id="app">
-    <router-view class="router-view" v-slot="{ Component }">
-      <transition :name="transitionName">
-        <component :is="Component" />
-      </transition>
-    </router-view>
+    <transition :name="transitionName">
+      <router-view class="router-view" />
+    </transition>
   </div>
 </template>
 
 <script>
-import { reactive, toRefs } from 'vue'
-import { useRouter } from 'vue-router'
   export default {
-    setup() {
-      const router = useRouter()
-      const state = reactive({
+    data () {
+      return {
         transitionName: 'slide-left'
-      })
-      router.beforeEach((to, from) => {
+      }
+    },
+    watch: {
+      $route(to, from) {
+        // 有主级到次级
         if (to.meta.index > from.meta.index) {
-          state.transitionName = 'slide-left' // 向左滑动
+          this.transitionName = 'slide-left' // 向左滑动
         } else if (to.meta.index < from.meta.index) {
           // 由次级到主级
-          state.transitionName = 'slide-right'
+          this.transitionName = 'slide-right'
         } else {
-          state.transitionName = ''   // 同级无过渡效果
+          this.transitionName = ''   //同级无过渡效果
         }
-      })
-
-      return {
-        ...toRefs(state)
       }
     }
   }
 </script>
 
-<style lang="less">
-html, body {
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
+<style lang="less"> 
 #app {
   height: 100%;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -86,8 +75,5 @@ html, body {
     opacity: 0;
     transform: translate3d(-100%, 0, 0);
 }
-
-.van-badge--fixed {
-  z-index: 1000;
-}
+ 
 </style>

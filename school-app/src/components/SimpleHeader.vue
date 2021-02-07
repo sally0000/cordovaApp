@@ -1,24 +1,42 @@
 <template>
   <header class="simple-header">
-    <i v-if="!isback" class="iconfont icon-zuobian" @click="goBack"></i>
-    <i v-else>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
-    <div class="simple-header-name">{{ name }}</div>
-    <div class="simple-header-sousuo-icon">
-      <i class="iconfont icon-icon--"></i>
-      <i class="iconfont icon-sousuo"></i>
+    <div class="simple-header-ellipse">
+
+    </div>
+    <i v-if="!noback" class="iconfont icon-zuobian" @click="goBack"></i>
+    <i v-else>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i> 
+    <div class="simple-header-sousuo-icon"> 
+      <i class="iconfont icon-sousuo" @click="showPopup"></i>
     </div> 
+    <van-popup
+      v-model="showSearch"
+      closeable
+      close-icon-position="top-right"
+      position="right"
+      :style="{ height: '100%' }"
+      class="simple-header-search"
+    >
+      <div class="simple-header-search-box">
+        <div class="simple-header-search-top">
+          <div class="search-top-title"> 学校类别 </div>
+          <div class="search-top-term">
+            <van-dropdown-menu>
+              <van-dropdown-item v-model="value1" :options="option1" />
+            </van-dropdown-menu>
+          </div>
+        </div>
+        <div class="simple-header-search-center"></div>
+        <div class="simple-header-search-bottom">
+          <van-button round type="info">查询</van-button>
+        </div>
+      </div>
+    </van-popup>
   </header>
 </template>
 
 <script>
-import { ref } from 'vue'
-import { useRouter } from 'vue-router'
 export default {
-  props: {
-    name: {
-      type: String,
-      default: ''
-    },
+  props: { 
     back: {
       type: String,
       default: ''
@@ -27,42 +45,57 @@ export default {
       type: Boolean,
       default: false
     }
-  },
-  emits: ['callback'],
-  setup(props, ctx) {
-    const isback = ref(props.noback)
-    const router = useRouter()
-    const goBack = () => {
-      if (!props.back) {
-        router.go(-1)
-      } else {
-        router.push({ path: props.back })
-      }
-      ctx.emit('callback')
+  }, 
+  data(){
+    return{
+      showSearch: false,     
+      value1: 0,
+      option1: [
+        { text: '全部', value: 0 },
+        { text: '新款', value: 1 },
+        { text: '活动', value: 2 },
+      ],
     }
-    return {
-      goBack,
-      isback
+  }, 
+  methods: {
+    showPopup(){
+      this.showSearch = true;
+    },
+    goBack(){
+      this.$router.go(-1)
     }
   }
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
   @import '../common/style/mixin';
   .simple-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10000;
     .fj();
     .wh(100%, 44px);
     line-height: 44px;
     padding: 0 10px;
     .boxSizing();
-    color: #252525;
-    background: #fff;
-    border-bottom: 1px solid #dcdcdc;
+    margin: auto; 
+    overflow: hidden;
+    .simple-header-ellipse{
+        position: relative;
+        width: 100%; 
+        height: 120px; 
+        text-align: center; 
+        &::after{
+          opacity: 0.4; 
+          width: 140%; 
+          height: 120px; 
+          position: absolute; 
+          left: -20%; 
+          top: 0; 
+          z-index: 0; 
+          content: ''; 
+          border-radius: 0 0 50% 50%; 
+          background: linear-gradient(45deg, @primary, #7a80ce);
+        }
+    }
     .simple-header-name {
       font-size: 14px;
     }
@@ -70,6 +103,50 @@ export default {
       i{
         font-size: 14px;
         padding: 2px;
+      }
+    }
+    .simple-header-search{
+      > i{
+        font-size: 14px;
+        top: 10px;
+        right: 10px;
+      }
+      .simple-header-search-box{
+        margin-top: 32px;
+        .simple-header-search-top{
+          .fj();
+          font-size: 12px;
+          height: 30px;
+          .search-top-title{
+            line-height: 30px;
+            margin-left: 10px; 
+            margin-right: 10px; 
+          }
+          .search-top-term{
+            width: 100px;
+            .van-dropdown-menu__bar{
+              height: 30px;
+              box-shadow: none;
+              .van-dropdown-menu__title{
+                font-size: 12px;
+              }
+            }
+          } 
+          span{
+            font-size: 10px;
+          }
+        }
+        .simple-header-search-bottom{
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+          button{
+            width: 100%;
+            font-size: 12px;
+            height: 28px;
+          }
+        }
       }
     }
   }

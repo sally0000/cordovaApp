@@ -1,14 +1,15 @@
-import { createApp } from "vue";
-import { Button, Tabbar, TabbarItem,Icon } from "vant";
+import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
-import store from "./store";
-import "vant/lib/index.css";
+import store from "./store";  
+// 引入 vant 配置 公共文件
+import '@/plugins/vant'
 import "lib-flexible";
 
-const app = createApp(App) // 创建实例
-app.use(Button).use(Tabbar).use(Icon).use(TabbarItem);
-app.use(router)
-app.use(store)
+Vue.config.productionTip = false;  
 
-app.mount('#app')
+new Vue({
+  router,
+  store, 
+  render: h => h(App)
+}).$mount("#app");
