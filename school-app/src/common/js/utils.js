@@ -4265,3 +4265,13 @@ export function booleanVlue(value) {
   value = !value;
   return value;
 }
+
+// 图片前缀方法
+export const prefix = (url) => {
+  if (url && url.startsWith('http')) {
+    return url
+  } else {
+    url = `http://192.168.2.122:9102/cloud-admin/ems/safetyMonitoring/downloadPhoto/${url}`
+    return url
+  }
+}

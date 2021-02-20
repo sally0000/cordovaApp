@@ -1,5 +1,6 @@
 <template>
-  <div class="nav-bar van-hairline--top">
+  <div class="nav-bar van-hairline--top"> 
+    <slot></slot>
     <ul class="nav-list">
       <router-link tag="li" class="nav-list-item active" to="realTime">
         <i class="iconfont icon-shishi"></i>
@@ -38,7 +39,7 @@ export default {
     z-index: 1000;
     background: #fff;
     transform: translateZ(0);
-    -webkit-transform: translateZ(0);
+    -webkit-transform: translateZ(0); 
     .nav-list {
       width: 100%;
       .fj();

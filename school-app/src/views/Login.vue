@@ -45,6 +45,7 @@ export default {
           "password": values.password
         })  
         setLocal('token', data.token)
+        setLocal('userKey', data.userKey)
         // 更换界面
         window.location.href = '/'
       }catch(error){

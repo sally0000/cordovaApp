@@ -86,3 +86,26 @@
   display: flex;
   justify-content: @type;
 }
+
+// //flex 布局和 子元素 对其方式 垂直分布
+.ff(@type: column){
+  display: flex;
+  flex-flow: @type; 
+}
+
+// //flex 布局,子元素居中
+.aCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//字体超出省略
+.wordBreak{
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

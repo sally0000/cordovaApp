@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <s-header :name="'关于我们'"></s-header>
+    <s-header ></s-header>
     <div class="about-body">
       <img class="intro-img" src="" alt="">
     </div>
@@ -19,7 +19,6 @@ export default {
 <style lang="less" scoped>
   .about {
     box-sizing: border-box;
-    padding: 20px;
     .intro-img {
       width: 100%;
     }

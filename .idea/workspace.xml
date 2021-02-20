@@ -2,56 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d80eab3-1c36-466c-9115-3be4b3ee6298" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/school-app3/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/common/js/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/common/style/base.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/common/style/mixin.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/components/NavBar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/components/SimpleHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/EVN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/EvnIndex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/HuangPu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/PM2.5 Copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/Record.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/SEC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/SourceHanSansCN-Normal.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/caution.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/envPng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/esc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/international.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/loginImg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/loginPng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/me.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/sao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/setPwd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/site.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/img/userManual.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/plugins/vant.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/service/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/utils/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/views/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/views/Monitor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/views/RealTime.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/views/User.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/src/views/Warning.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school-app3/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app2" beforeDir="false" afterPath="$PROJECT_DIR$/school-app2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app2/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/school-app2/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app2/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app2/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app3" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app3/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app3/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app3/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app3/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app3/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app3/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app3/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app3/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app3/src/views/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app3/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/common/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/common/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/common/style/mixin.less" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/common/style/mixin.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/components/Modular.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/components/Modular.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/components/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/components/SimpleHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/components/SimpleHeader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/plugins/vant.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/plugins/vant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/service/realTime.js" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/service/realTime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/views/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/views/Monitor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/views/Monitor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/views/RealTime.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/views/RealTimeSearch.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-app/src/views/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/school-app/src/views/User.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +109,11 @@
       <workItem from="1612321666809" duration="1195000" />
       <workItem from="1612400828392" duration="1781000" />
       <workItem from="1612659812210" duration="598000" />
+      <workItem from="1612674707476" duration="659000" />
+      <workItem from="1612746043216" duration="1187000" />
+      <workItem from="1612832525499" duration="634000" />
+      <workItem from="1612918905585" duration="593000" />
+      <workItem from="1613783068432" duration="595000" />
     </task>
     <servers />
   </component>

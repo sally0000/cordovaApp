@@ -5,6 +5,7 @@ import store from "./store";
 // 引入 vant 配置 公共文件
 import '@/plugins/vant'
 import "lib-flexible";
+import { prefix } from '@/common/js/utils'
 
 Vue.config.productionTip = false;  
 
@@ -13,3 +14,5 @@ new Vue({
   store, 
   render: h => h(App)
 }).$mount("#app");
+
+Vue.prototype.prefix = prefix;

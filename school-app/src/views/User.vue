@@ -7,21 +7,21 @@
               <img src="http://s.yezgea02.com/1604040746310/aaaddd.png"/>
               <div>
                 <div class="user-img-name">{{ user.username }}</div>
-                <div class="user-img-name2">{{ user.roles[0] }}</div>
+                <div class="user-img-name2" v-if="user.roles">{{ user.roles[0] }}</div>
               </div>
           </div>
           <div class="user-info">
             <div class="info">
               <div class="user-desc">
-                <span class="user-desc-num1">4</span>
+                <span class="user-desc-num1">{{ userNum.amount }}</span>
                 <span class="name">总监测设备数</span>
               </div>
               <div class="user-desc">
-                <span class="user-desc-num2">3</span>
+                <span class="user-desc-num2">{{ userNum.safetyMonitoring }}</span>
                 <span class="name">安全监测</span>
               </div>
               <div class="user-desc">
-                <span class="user-desc-num3">1</span>
+                <span class="user-desc-num3">{{ userNum.environmentalMonitoring }}</span>
                 <span class="name">环境监测</span>
               </div>
             </div>
@@ -67,10 +67,7 @@
           <span class="custom-title">退出登录</span>
         </template>
       </van-cell>
-    </div> 
-    <div class="user-edition">
-      Version 1.0.1
-    </div>
+    </div>  
     <!-- 修改密码遮罩层 -->
     <van-overlay :show="showOverlay" @click="showOverlay = false">
       <div class="user-wrapper" @click.stop>
@@ -131,7 +128,11 @@
         <van-button type="default" @click="showPopup = false">取消</van-button>
       </div>
     </van-popup>
-    <nav-bar></nav-bar>
+    <nav-bar>
+      <div class="user-edition">
+        Version 1.0.1
+      </div>
+    </nav-bar>
     
   </div>
 </template>
@@ -140,7 +141,7 @@
 import navBar from "@/components/NavBar" 
 import { booleanVlue, setLocal} from '@/common/js/utils'
 import { Toast } from 'vant'
-import { logout, register, getUserInfo } from '../service/user'
+import { logout, register, getUserInfo, getUserNumInfo} from '../service/user'
 export default {
   components: {
     navBar
@@ -148,6 +149,7 @@ export default {
   data(){
     return{
       user: {},
+      userNum: {},
       showOverlay: false,    
       showPopup: false,
       type:"password",  
@@ -169,6 +171,14 @@ export default {
       this.user = data
     }catch(error){
       console.log('异常抛出。。。',error.message);
+    };
+    try{
+      const { data } = await getUserNumInfo({
+        "userKey": localStorage.getItem('userKey')
+      })
+      this.userNum = data
+    }catch(error){
+      console.log('异常抛出。。。',error.message);
     }
   },
   methods: {  
@@ -186,6 +196,7 @@ export default {
       const { errcode } = await logout()
       if (errcode == 0) {
         setLocal('token', '')
+        setLocal('userKey', '') 
         this.$router.replace("/login");
       }
     },
@@ -310,15 +321,7 @@ export default {
       span {
         font-size: 12px;
       }
-    }
-    .user-edition{
-      font-size: 14px;
-      color: #BDBDBD;
-      position: absolute;
-      float: right;
-      right: 20px;
-      bottom: 60px;
-    }
+    } 
     .user-wrapper {
       display: flex;
       align-items: center;
@@ -371,6 +374,14 @@ export default {
         height: 5px;
         background: #55545410;
       }
+    }
+    .user-edition{
+      font-size: 14px;
+      color: #BDBDBD;
+      position: relative;
+      float: right;
+      right: 20px;
+      bottom: 30px;
     }
   }
 </style>

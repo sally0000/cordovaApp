@@ -1,61 +1,36 @@
 <template>
-  <header class="simple-header">
-    <div class="simple-header-ellipse">
-      <div class="simple-header-back">
-        <i v-if="!noback" class="iconfont icon-zuobian" @click="goBack"></i>
-        <i v-else>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>  
-      </div>
-      <div class="simple-header-searchs">
-        <van-field      
-          type="text"
-          v-model="value" 
-          placeholder="请输入设备名或项目名。"
-          @click="onSearch"
-        >  
-          <van-icon slot="right-icon" name='search'/>
-        </van-field> 
-      </div>
+  <header class="modular-header">
+    <div class="modular-header-ellipse">
+      <div class="modular-header-back">
+        <i  class="iconfont icon-zuobian" @click="goBack"></i> 
+      </div> 
+      <slot></slot>
     </div> 
-  </header>
+  </header> 
 </template>
 
 <script>
 export default {
-  props: { 
-    back: {
-      type: String,
-      default: ''
-    },
-    noback: {
-      type: Boolean,
-      default: false
-    }
+  props: {   
   }, 
   data(){
-    return{   
-      value1: 0,
-      value:'', 
+    return{     
     }
   }, 
   methods: { 
     goBack(){
       this.$router.go(-1)
-    },
-    onSearch(){
-      if (this.back) {
-        this.$router.push({ path: this.back })
-      }
-    }
+    }, 
   }
 }
 </script>
 
 <style lang="less">
   @import '../common/style/mixin';
-  .simple-header { 
+  .modular-header { 
     margin: auto; 
     overflow: hidden;
-    .simple-header-ellipse{
+    .modular-header-ellipse{
         position: relative;
         width: 100%; 
         height: 120px; 
@@ -69,10 +44,9 @@ export default {
           top: 0; 
           z-index: 0; 
           content: ''; 
-          border-radius: 0 0 50% 50%; 
           background: linear-gradient(45deg, @primary, #7a80ce);
         }
-        .simple-header-back{
+        .modular-header-back{
           position:absolute;
           .fj();
           .wh(100%, 44px);
@@ -80,8 +54,8 @@ export default {
           padding: 0 10px;
           .boxSizing();
           z-index: 1; 
-        }
-        .simple-header-searchs{
+        } 
+        .modular-header-searchs{
           width: 80%;
           height: 38px;
           border: 1px solid rgba(189, 189, 189, 1);
@@ -95,15 +69,15 @@ export default {
             width: 100%;
             padding: 8px;
             .van-field__control{
-             font-size: 12px;
+              font-size: 12px;
             }
           }
         }
     }
-    .simple-header-name {
+    .modular-header-name {
       font-size: 14px;
     }
-    .simple-header-sousuo-icon{
+    .modular-header-sousuo-icon{
       i{
         font-size: 14px;
         padding: 2px;

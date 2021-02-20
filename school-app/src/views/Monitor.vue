@@ -1,6 +1,6 @@
 <template>
   <div class="monitor-box">
-    <s-header :name="'监控'" :noback="true"></s-header>
+    <s-header :noback="true"></s-header>
     <div class="monitor-body">
       <van-pull-refresh 
         v-model="isLoading" 
@@ -45,8 +45,7 @@ export default {
   .monitor-box{
     background: #FAFAFA;
     .monitor-body{
-      margin-top: 44px;
-      height: calc((100vh - 98px));
+      height: calc((100vh - 175px));
       // overflow: hidden;
       // overflow-y: scroll;
       .van-pull-refresh{
